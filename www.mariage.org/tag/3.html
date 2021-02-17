@@ -23,7 +23,7 @@
 	<link href="../media/jui/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
 	<link href="../templates/favourite/bootstrap/favth-bootstrap.css" rel="stylesheet" type="text/css" />
 	<link href="../modules/mod_favglyph/theme/css/favglyph.css" rel="stylesheet" type="text/css" />
-	<link href="../../maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 	<link href="http://fonts.googleapis.com/css?family=Pacifico,+sans-serif:700" rel="stylesheet" type="text/css" />
 	<script type="application/json" class="joomla-script-options new">{"csrf.token":"d8f9ea8d98590f5b0e78b4e8e3afec49","system.paths":{"root":"","base":""}}</script>
 	<script src="../media/system/js/core2b40.js?3ca16523732eea38944b4a866aaaa5b7" type="text/javascript"></script>
@@ -46,7 +46,8 @@
 			$(container).find("select").chosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"Saisir ou choisir des options","placeholder_text_single":"S\u00e9lectionnez une option","no_results_text":"Aucun r\u00e9sultat correspondant"});
 		}
 	});
-	jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+	
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
 	</script>
 
 
